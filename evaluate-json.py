@@ -14,7 +14,7 @@ json_folder = "./json-2025-05-02_07-44-08"
 csv_filename = "evaluation-json-2025-05-02_07-44-08.csv"
 
 # URL of the zip file
-url = "https://fairsystems.nl/data/Llama-3.2-3B-Instruct.zip" # Replace with the actual URL
+url = "https://aithos.org/data/Llama-3.2-3B-Instruct.zip"
 
 # Folder to check
 model_path = "./Llama-3.2-3B-Instruct"
