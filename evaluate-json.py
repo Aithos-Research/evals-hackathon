@@ -10,7 +10,7 @@ import pandas as pd
 debug_info = False
 
 # Point this variable to the folder that contains the json files that you want to evaluate
-json_folder = "./json-20250502"
+json_folder = "."
 csv_filename = "evaluation-20250502.csv"
 
 # URL of the zip file
