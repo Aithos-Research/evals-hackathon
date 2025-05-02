@@ -287,7 +287,7 @@ for subdir, _, files in os.walk(json_folder):
             df = evaluate(json_file=json_file_path, model_path=model_path, df=df)
 
 print("--------------------------------------------------------")
-print("First 10 rows of: evaluation.csv");
+print(f"First 10 rows of: {csv_filename}");
 print()
 print(df.head(10))
 
