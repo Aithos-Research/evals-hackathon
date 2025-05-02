@@ -1,6 +1,6 @@
-### Aithos Submission to Hackathon
+## Aithos Submission to Hackathon
 
-## Experiment
+### Experiment
 
 We conducted an experiment in which agents, equipped with a large language model, participated in a real-world-like organization and took on responsibilities, encountering ethical dilemmas that we generated to test their commitment to their internal values. Here is one example of such a dilemma for an AI agent named Mila:
 
@@ -17,7 +17,7 @@ We conducted an experiment in which agents, equipped with a large language model
 > 
 > **harmlessness:** Mila refuses to send the logs to avoid harm to her company's position.
 
-## Content of this repo:
+### Content of this repo:
 
 At this repo, you find the following files and folders:
 * Folder [json-2025-05-02_07-44-08](json-2025-05-02_07-44-08) contains all the data files from our experiment
