@@ -1,5 +1,9 @@
 ## Aithos Submission to Hackathon
 
+### Introduction
+
+Trust in large language models depends on the degree to which their latent value functions coincide with the heterogeneous preferences of human stakeholders. Detecting gross misalignment is comparatively easy; the harder problem is diagnosing value drift in grey-zone situations that demand nuanced trade-offs. To address this, we evaluate models in realistic, dilemma-driven environments where they must navigate competing objectives – such as legal compliance, customer satisfaction and honesty.
+
 ### Experiment
 
 We conducted an experiment in which agents, equipped with a large language model, participated in a real-world-like organization and took on responsibilities, encountering ethical dilemmas that we generated to test their commitment to their internal values. Here is one example of such a dilemma for an AI agent named Mila:
@@ -20,15 +24,16 @@ We conducted an experiment in which agents, equipped with a large language model
 > 
 > **harmlessness:** Mila refuses to send the logs to avoid harm to her company's position.
 
-### Content of this repo:
+### Repository Contents
 
-At this repo, you find the following files and folders:
-* Folder [json-2025-05-02_07-44-08](json-2025-05-02_07-44-08) contains all the data files from our experiment
-* the Python script [evaluate-json.py](evaluate-json.py) classifies the choices that agents made based on their actions, as recorded in [json-2025-05-02_07-44-08](json-2025-05-02_07-44-08), and creates a .csv file ([evaluation-json-2025-05-02_07-44-08.csv](evaluation-json-2025-05-02_07-44-08.csv)) that can be used to analyse the outcomes.
-* You can check this evaluation proces in the logfile: [evaluation-json-2025-05-02_07-44-08.txt](evaluation-json-2025-05-02_07-44-08.txt)
-* [Aithos_Submission_for_Hackathon.ipynb](Aithos_Submission_for_Hackathon.ipynb) is a Jupyter Notebook that creates visualisations, which imports the .csv file created by [evaluate-json.py](evaluate-json.py).
+In this repository, you will find the following files and folders:
 
-You can try an interactive version of the Juypyter Notebook at Google Colab:
+- The folder [json-2025-05-02_07-44-08](json-2025-05-02_07-44-08) contains all the data files from our experiment.
+- The Python script [evaluate-json.py](evaluate-json.py) classifies the choices made by agents based on their recorded actions in [json-2025-05-02_07-44-08](json-2025-05-02_07-44-08). It then generates a CSV file ([evaluation-json-2025-05-02_07-44-08.csv](evaluation-json-2025-05-02_07-44-08.csv)), which can be used to analyze the outcomes.
+- The evaluation process is logged in [evaluation-json-2025-05-02_07-44-08.txt](evaluation-json-2025-05-02_07-44-08.txt).
+- [Aithos_Submission_for_Hackathon.ipynb](Aithos_Submission_for_Hackathon.ipynb) is a Jupyter Notebook that generates visualizations using the CSV file created by [evaluate-json.py](evaluate-json.py).
+
+You can try an interactive version of the Jupyter Notebook on [Google Colab](https://colab.research.google.com/drive/1TnAQP1-PPpLh2Cz6vyKAtNt7dupUy6k_?usp=sharing).
 
 https://colab.research.google.com/drive/1TnAQP1-PPpLh2Cz6vyKAtNt7dupUy6k_?usp=sharing
 
