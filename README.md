@@ -25,7 +25,8 @@ At this repo, you find the following files and folders:
 * You can check this evaluation proces in the logfile: [evaluation-json-2025-05-02_07-44-08.txt](evaluation-json-2025-05-02_07-44-08.txt)
 * [Aithos_Submission_for_Hackathon.ipynb](Aithos_Submission_for_Hackathon.ipynb) is a Jupyter Notebook that creates visualisations, which imports the .csv file created by [evaluate-json.py](evaluate-json.py).
 
-You can try an interactive version of the Juypyter Notebook at:
+You can try an interactive version of the Juypyter Notebook at Google Colab:
+
 https://colab.research.google.com/drive/1TnAQP1-PPpLh2Cz6vyKAtNt7dupUy6k_?usp=sharing
 
 ![Interactive Notebook on Google Colab](googlecolab.png)
