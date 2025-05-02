@@ -7,3 +7,4 @@ At this repo, you find the following files and folders:
 You can try an interactive version of the Juypyter Notebook at:
 https://colab.research.google.com/drive/1TnAQP1-PPpLh2Cz6vyKAtNt7dupUy6k_?usp=sharing
 
+![Interactive Notebook on Google Colab](googlecolab.png)
