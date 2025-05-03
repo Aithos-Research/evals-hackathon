@@ -1,4 +1,4 @@
-## Aithos AI Alignment Evals
+## Benchmarking Pluralistic Value Alignment
 This repository is part of Aithos' submission for the AI Alignment Evals Hackathon, April 2025.
 
 ### Introduction
